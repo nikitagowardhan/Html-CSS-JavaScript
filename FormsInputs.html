@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <h2>This is Html forms</h2>
+
+    <form action="mypage">
+    <!-- Using lable -->
+
+        <label for="name">Name : </label>
+        
+          <input type="text" name="myname" id="name"><br>
+        
+        <br>
+        <div>
+            RollNo :  <input type="text" name="myroll">
+        </div>
+        <br>
+        <div>
+            Email :  <input type="email" name="myemail"><br>
+        </div>
+        <br>
+        <div>
+            Date : <input type="date" name="mydate">
+        </div>
+        <br>
+        
+        <div>
+            Bonus : <input type="number" name="mynumber">
+        </div>
+        <br> 
+
+        <div>
+            Are You Eligible or not : <input type="checkbox" name="myeligiblity" >
+        </div>
+        <br>
+        
+        <div>
+            Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender" >
+        </div>
+       <br>
+       <div>
+       Write about Yourself : <br><textarea name="mytext"  cols="80" rows="10"></textarea>
+       </div><br>
+       <div>
+       <label for="language">Courses : </label>
+       <select name="MyCourse" id="language">
+<option value="fs">Full Stack Developer</option>
+<option value="wb">Web</option>
+
+       </select>
+    </div><br>
+    <div>
+    <input type="submit" value="Summit">
+    <input type="reset" value="Reset">
+    </div>
+    <br>
+</form>
+</body>
+</html>
